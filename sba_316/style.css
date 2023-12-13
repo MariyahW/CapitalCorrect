@@ -1,0 +1,51 @@
+body, html{
+    height: 100%;
+    width: 100%;
+    background-color:white;
+   display: flex;
+   flex-wrap: wrap;
+   font-family:system-ui;
+}
+main{
+    height: 75%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.CTA{
+    background-color: steelblue;
+    border: 2px white;
+    border-radius: 5%;
+    color: white;
+    height: 200px;
+    width: 200px;
+    text-align: center;
+    margin: 5%;
+    
+}
+nav-bar, sub-menu{
+    background-color: rgb(63, 61, 61);
+    width: 100%;
+    height: 15%;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    align-items: center;
+}
+nav-bar a{
+    color: white;
+    text-transform: uppercase;
+}
+
+#mainLogo{
+    height: 50%;
+    width: 25%;
+}
+
+main button:hover{
+    background-color: white;
+    color: steelblue;
+}
