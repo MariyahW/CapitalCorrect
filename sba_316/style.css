@@ -16,12 +16,9 @@ main{
     text-align: center;
 }
 .CTA{
-    background-color: #364156;
+   
     border: 2px white;
-    border-radius: 5%;
     color: white;
-    height: 200px;
-    width: 200px;
     text-align: center;
     margin: 5%;
     
@@ -68,21 +65,26 @@ dropdown-menu{
     background-color: #CDCDCD;
     box-shadow: 1px 1px 5px;
     border: none;
-    display: none;
+   display: none;
     padding: 10px;
     border-radius: 10%;
     
 }
 dropdown-menu a{
     text-decoration: none;
-    color: #CDCDCD;
+    color: #364156;
     display: block;
     min-width: 150px;
     padding: 10px 15px;
 
 }
-drop-down button:hover, dropdown-menu{
+drop-down button:hover{
     cursor: pointer;
-    background-color: #364156;
+}
+ #button:active dropdown-menu{
     display: block;
+    background-color: #364156;
+    
+   
+   
 }

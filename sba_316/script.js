@@ -3,6 +3,8 @@ let nav = document.querySelector(`nav-bar`);
 let dropdown=document.querySelector(`dropdown-menu`)
 const start=document.getElementById(`start`);
 const serv=document.getElementById(`serv`);
+const navButton = document.querySelector(`drop-down>button`);
+
 const navLinks = [
       { text: "Lending", href: `./lending` },
       { text: `Credit Repair`, href: `/credit` },
@@ -16,10 +18,7 @@ navLinks.forEach((link) => {
     dropdown.appendChild(addOn);
   });
   
-  //Part 2-1
-//   let subMenuEl = document.querySelector(`sub-menu`);
-// //   subMenuEl.style.position = `absolute`;
-//   subMenuEl.style.top = `0`;
+
   
   start.addEventListener(`click`,(event) =>{
     event.stopPropagation();
@@ -32,3 +31,12 @@ navLinks.forEach((link) => {
     location.href=`./services.html`
 
   });
+  navButton.addEventListener('click',(event)=>{
+    event.stopPropagation();
+    if(navButton.className==`active`){
+      navButton.classList.remove(`active`);
+    }else{
+    navButton.classList.add(`active`);
+    }
+
+  })
