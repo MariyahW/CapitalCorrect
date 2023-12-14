@@ -1,7 +1,7 @@
 body, html{
     height: 100%;
     width: 100%;
-    background-color:white;
+    background-color:#CDCDCD;
    display: flex;
    flex-wrap: wrap;
    font-family:system-ui;
@@ -16,7 +16,7 @@ main{
     text-align: center;
 }
 .CTA{
-    background-color: steelblue;
+    background-color: #364156;
     border: 2px white;
     border-radius: 5%;
     color: white;
@@ -26,18 +26,26 @@ main{
     margin: 5%;
     
 }
-nav-bar, sub-menu{
-    background-color: rgb(63, 61, 61);
+nav-bar{
+    background-color: #011638;
     width: 100%;
-    height: 15%;
+    height: 10%;
     display: flex;
     justify-content: space-evenly;
     text-align: center;
     align-items: center;
+    position: relative;
 }
 nav-bar a{
-    color: white;
+    color: #CDCDCD;
     text-transform: uppercase;
+    text-decoration: none;
+}
+nav-bar img{
+    height: 50%;
+    padding-left: 0%;
+    padding-right: 30%;
+    
 }
 
 #mainLogo{
@@ -48,4 +56,33 @@ nav-bar a{
 main button:hover{
     background-color: white;
     color: steelblue;
+}
+drop-down button{
+   background-color: #011638;
+   border: none;
+   color: #CDCDCD;
+   padding: 10px;
+}
+dropdown-menu{
+    position: absolute;
+    background-color: #CDCDCD;
+    box-shadow: 1px 1px 5px;
+    border: none;
+    display: none;
+    padding: 10px;
+    border-radius: 10%;
+    
+}
+dropdown-menu a{
+    text-decoration: none;
+    color: #CDCDCD;
+    display: block;
+    min-width: 150px;
+    padding: 10px 15px;
+
+}
+drop-down button:hover, dropdown-menu{
+    cursor: pointer;
+    background-color: #364156;
+    display: block;
 }
