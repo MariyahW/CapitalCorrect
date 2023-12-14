@@ -23,7 +23,7 @@ These instructions will get you a copy of the project up and running on your loc
 
 
 ### Technology Used <a name="tech">
-- [HTML](#https://html.com/)
+- [HTML](https://html.com/)
 - [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_selectors)
 - [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 - [Bootstrap](https://getbootstrap.com/)
