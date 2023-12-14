@@ -55,7 +55,7 @@ form.addEventListener(`submit`, (event) => {
 });
 
 function userVal() {
-  const regEx = /[\W]/;
+  const regEx = /[!@#$%^&*()]/;
   console.log(regEx.test(formName));
   return regEx.test(formName);
 }
