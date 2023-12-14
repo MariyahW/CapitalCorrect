@@ -44,6 +44,9 @@ nav-bar img {
 #mainLogo {
   height: 50%;
   width: 25%;
+  border: 1px #011638;
+  border-radius: 50%;
+  box-shadow: 7px 5px #011638;
 }
 
 main button:hover {
