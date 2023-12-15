@@ -2,7 +2,7 @@ body,
 html {
   height: 100%;
   width: 100%;
-  background-color: #cdcdcd;
+  background-color: hsl(0, 0%, 90%);
   display: flex;
   flex-wrap: wrap;
   font-family: system-ui;
