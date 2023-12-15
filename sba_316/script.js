@@ -8,9 +8,9 @@ const navButton = document.querySelector(`.button_`);
 
 const navLinks = [
   { text: `All Services`, href: `./services.html` },
-  { text: "Lending", href: `https://www.davidallencapital.com/102159514` },
-  { text: `Credit Repair`, href: `/credit` },
-  { text: `Business Succession`, href: `./buyouts` },
+  { text: "Lending", href: `./extra.html` },
+  { text: `Credit Repair`, href: `./phenom.html` },
+  { text: `Business Succession`, href: `./contact.html` },
 ];
 
 
